@@ -1,1 +1,220 @@
-/* EJEMPLO DE LA HOJA DE ESTILOS*/
+/* INICIO HOJA DE ESTILOS DEL HOME*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body { width: 100%;}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+
+.-fondoHome {
+    background-image: url(../assets/images/Image\ 90.png);
+    height: 620px;
+    width: 100%;
+    background-size: cover;
+}
+.row{ width: 100%;}
+
+.-pdd-0-i { padding: 0 !important;}
+
+.-proyectos-bogota {
+    background: transparent linear-gradient(156deg, #00B245 0%, #008C44 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #50474134;
+    border-radius: 15px;
+    opacity: 1;
+    width: 372px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+    margin-top: 220px;
+}
+
+/* .centro-vertical {
+    display: flex;
+    align-items: center;
+}*/
+
+.-bogota {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.-imgcastillo {
+    width: 33px;
+    height: 46px;
+    margin-left: 23px;
+    margin-right: 15px;
+}
+
+
+
+.-conoce-proyectos {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.-en {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.-imgflecha {
+    width: 20px;
+    height: 14px;
+    margin-left: 101px;
+    margin-right: 13px;
+}
+
+.-contenedor-alejandria {
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    opacity: 1;
+    width: 372px;
+    height: 411px;
+    margin-left: 135px;
+    margin-top: 25px;
+}
+
+.-texto-alejandria {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1.56px;
+    color: rgba(80, 71, 65, 1);
+    opacity: 1;
+    text-align: left;
+    padding-top: 16px;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.-zona-norte {
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgba(80, 71, 65, 1);
+}
+
+.-zona {
+    font-weight: 400;
+}
+
+.-chico {
+    font-weight: bold;
+}
+
+.-bogota-zona-norte {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.-iconos-chico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.-texto-familia {
+    text-align: left;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.56px;
+    color: rgba(80, 71, 65, 1);
+}
+
+.-precio-alejandria {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(80, 71, 65, 1);
+}
+
+.-precio-cop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.-component-1677-1 { 
+    width: 46px;
+    height: 29px;
+    background-image: url(../assets/images/Component\ 1677\ –\ 1.png);
+}
+
+.-contenedor-proyectos {
+    width: 70%;
+    height: 700px;
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 150px;
+}
+
+.-titulo-proyectos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgba(5, 98, 50, 1);
+    font-weight: 800;
+}
+
+.-texto-hogar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(80, 71, 65, 1);
+    text-align: left;
+}
+
+.-propiedades {
+    width: 70%;
+    height: 317px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.-image4 {
+    background-image: url(../assets/images/Image\ 4.png);
+}
+
+.-park-logo {
+    background-image: url();
+}
+
+.-image-alto {
+    background-image: url(../assets/images/alto-living-foto-ago-2-2019.png);
+}
+
+.-image-mirla {
+    background-image: url(../assets/images/mirla-img_1-amp.png);
+}
+
+.-pasa-voz {
+    width: 100%;
+}
+
+.-fondo-voz {
+    background-image: url(../assets/images/AdobeStock_181205632.png);
+    background-size: cover;
+    height: 630px;
+    width: 100%;
+}
+
+/* FINAL HOJA DE ESTILOS DEL HOME*/
+
+
+
+
+
