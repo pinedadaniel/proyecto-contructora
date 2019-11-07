@@ -127,6 +127,7 @@ body { width: 100%;}
     flex-direction: row;
     width: 50%;
     justify-content: flex-end;
+    
 
 }
 .-p-icon-alejandria { 
@@ -194,7 +195,11 @@ opacity: 1;
 
 }
 
-.-texto-familia {
+.-texto-familia{
+    background-color: #F9F5F3;
+}
+
+.-texto-familia p{
     text-align: left;
     margin-left: 15px;
     font-family: 'Roboto', sans-serif;
@@ -202,6 +207,7 @@ opacity: 1;
     font-weight: 400;
     letter-spacing: 1.56px;
     color: rgba(80, 71, 65, 1);
+    background-color: #F9F5F3;
 }
 
 .-precio-alejandria {
