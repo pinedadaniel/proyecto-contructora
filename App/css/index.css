@@ -280,7 +280,125 @@ opacity: 1;
 
 /* FINAL HOJA DE ESTILOS DEL HOME*/
 
+/*Elige una ciudad*/
 
+.-fondo_ciudad{
+    background-image: url(../assets/images/Ellipse\ 210.png);
+    height: 361px;
+    width: 100%;
+    margin: 25px 0 0 0;
+    background-position: left;
+}
+.-titulo_ciudad{
+    color: green;
+}
+.-boton_buscar_ciudad{
+    border-radius: 25px;
+    border-color: green;
+    background: white;
+    width: 325px;
+    text-align: left;
+}
+.-img_pequeña_ciudad{
+    float: left;
+    margin: 5px;
+}
+.letra{
+    font-family: roboto;
+}
+.contenedor_ciudad{
+    margin-top: 30px;
+}
+.-hr{
+    box-shadow: 0px 3px 13px -2px rgba(0,0,0,0.75);
+    width: 340px;
+    height: 1px;
+    margin: 0 15px;
+}
+/*Finaliza una ciudad*/
+
+/*comienza busqueda avanzada*/
+.-busqueda_avanzada{
+    background-image:url(../assets/images/AdobeStock_279721422.png);
+    height: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: right;
+    padding: 0;
+
+}
+.-titulo_busqueda{
+    font-family: roboto;
+    margin: auto;
+    line-height:51px;
+}
+.-contenedor_sector{
+    background-color: #606060;
+    padding: 0;
+}
+.-contenedor_precio{
+    background-color: #585858;
+    padding: 0;
+    
+}
+.-contenedor_buscar{
+    background-color: #484848;
+    padding: 0;
+}
+.-contenedores{
+    padding: 0;
+}
+/*Finaliza busqueda avanzada*/
+/*comienza Otros proyectos*/
+
+.-titulo_otro_proyectos{
+    font-family: roboto;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 45px 0;
+}
+.-contenedor_alto{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+
+}
+.-contenedor_prado{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+
+}
+.-contenedor_ilarco{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+.-contenedor_alejandriaa{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+/*finaliza otros proyectos*/
+
+/*comienza testimonio*/
+.-centrar_titulo{
+    text-align: center;
+    font-family: roboto;
+}
+.-foto_galindo{
+    float: left;
+}
+.-texto_testimonio{
+    font-family: roboto;
+
+}
+/*finaliza testimonio*/
 
 
 
